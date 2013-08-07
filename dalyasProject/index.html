@@ -6,8 +6,55 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Dalyas Project</title>
         <link rel="stylesheet" href="css/style.css">
+        <style type="text/css">
+.facebook {
+position: absolute;
+left: 38%;
+top: 32%;
+z-index: -1;
+}
+.twitter {
+position: absolute;
+left: 42.5%;
+top: 32%;
+z-index: -1;
+}
+.instagram {
+position: absolute;
+left: 47%;
+top: 33%;
+z-index: -1;
+}
+html{
+    /* This image will be displayed fullscreen */
+    background:url('./images/about-me.gif') no-repeat center center;
+
+    /* Ensure the html element always takes up the full height of the browser window */
+    min-height:100%;
+
+    /* The Magic */
+    background-size:contain;
+}
+
+body{
+    /* Workaround for some mobile browsers */
+    min-height:100%;
+}
+/*<img src="./images/about-me.gif" class="over">
+*/</style>
     </head>
     <body>
-        <h1>Hello World Dalya</h1>
-    </body>
+       
+        <a href="http://www.facebook.com" target="_blank" class="facebook">
+        <img src="images/1.gif" />
+        </a> 
+
+        <a href="http://www.instagram.com" target="_blank" class="twitter">
+        <img src="images/2.gif" />
+        </a> 
+
+        <a href="http://www.twitter.com" target="_blank" class="instagram">
+        <img src="images/3.gif" />
+        </a> 
+   </body>
 </html> 
